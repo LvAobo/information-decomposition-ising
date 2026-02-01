@@ -39,8 +39,8 @@ CONFIG: dict = {
     'T_MAX': 2.80,
     'N_T':   50,              # number of temperature points
     'N_POINTS': 50,          # number of observation sites
-    'OBS_SEED': 6463,
-    'RNG_SEED': 635546,
+    'OBS_SEED': 123,
+    'RNG_SEED': 123,
     'WITH_SHIFT': False,
 }
 
