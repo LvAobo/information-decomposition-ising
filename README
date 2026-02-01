@@ -1,0 +1,41 @@
+# Ising PID Experiments
+
+This repository contains the code used to generate the numerical results
+in the paper
+
+> **Multivariate Partial Information Decomposition:  
+> Constructions, Inconsistencies, and Alternative Measures**  
+> A. Lyu, A. Clark, and N. Raviv
+
+The code reproduces all Partial Information Decomposition (PID) results
+reported for the Ising model in the manuscript.
+
+---
+
+## Contents
+
+- `experiment1_local_pid.py`  
+  Implements **Experiment 1**, which analyzes the informational
+  contributions of neighboring spins to the instantaneous state of a
+  central lattice site.
+
+- `experiment2_emergent_order.py`  
+  Implements **Experiment 2**, which treats coarse-grained local spatial
+  order as the target variable and investigates the emergence of
+  synergistic information near criticality.
+
+---
+
+## Requirements
+
+The code was tested with Python 3.10 and requires the following packages:
+
+- numpy
+- pandas
+- matplotlib
+- tqdm
+
+All dependencies can be installed via:
+
+```bash
+pip install -r requirements.txt
