@@ -14,15 +14,18 @@ reported for the Ising model in the manuscript.
 
 ## Contents
 
-- `experiment1_local_pid.py`  
+- `Experiment 1.py`  
   Implements **Experiment 1**, which analyzes the informational
   contributions of neighboring spins to the instantaneous state of a
   central lattice site.
 
-- `experiment2_emergent_order.py`  
+- `Experiment 2.py`  
   Implements **Experiment 2**, which treats coarse-grained local spatial
   order as the target variable and investigates the emergence of
   synergistic information near criticality.
+
+- `pidtools.py`  
+  Our measures.
 
 ---
 
